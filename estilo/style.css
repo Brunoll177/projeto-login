@@ -63,7 +63,7 @@ div.campo label{
     background-color: #49a09d;
 }
 .campo > input{
-    background-color: #62d4d1;
+
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
