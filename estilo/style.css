@@ -55,11 +55,35 @@ display: block;
 height: 35px;
 border-radius: 5px;
 margin: 5px 0px 5px 0px;
-text-align: center;
+
 
 }
 div.campo label{
     display: none;
+    background-color: #49a09d;
+}
+.campo > input{
+    background-color: #62d4d1;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transform: translateY(-13px);
+    padding: 4px;
+}
+.campo > input:focus-within{
+    background-color: white;
+}
+
+
+.campo > span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    transform: translateY(-3px);
 }
 
 form > input[type=submit]{
