@@ -7,14 +7,15 @@ background-image: linear-gradient(to top, #49a09d, #5f2c82 );
     
     #login{
         width: 90vw;
+        display: flex;
     }
     #imagem{
-  float: left;
+  
   width: 30%;
   height: 100%;
     }
     #formulario{
-        float: right;
+        
         width: 70%;
         height: 100%;
 
@@ -30,15 +31,15 @@ background-image: linear-gradient(to top, #49a09d, #5f2c82 );
             }
     #login{
         width: 990px;
+        display: flex;
+        flex-direction: row-reverse;
     }
     #imagem{
-  float: right;
   width: 50%;
   height: 100%;
     }
     #formulario{
-        float: left;
-        width: 50%;
+       width: 50%;
         height: 100%;
 
     }
